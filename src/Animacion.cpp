@@ -16,7 +16,7 @@ std::vector<std::u32string> GenerarTablero() {
     for (int y = 0; y < 8; ++y) {
         std::u32string fila = U"";
         for (int x = 0; x < 8; ++x) {
-            fila += blanco ? U"░░" : U"██";
+            fila += blanco ? U"  " : U"██";
             blanco = !blanco;
         }
         blanco = !blanco;
