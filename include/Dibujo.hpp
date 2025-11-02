@@ -18,10 +18,10 @@ public:
                 int px = x + col;
                 int py = y + row;
                 if (px < screen.dimx() && py < screen.dimy() && figura[row][col] != U' ') {
-                    auto& pixel = screen.PixelAt(px, py);
-                    pixel.character = figura[row][col];
-                    pixel.bold = true;
-                    pixel.foreground_color = color;
+                auto& pixel = screen.PixelAt(px, py);
+                pixel.character = figura[row][col];
+                pixel.bold = true;
+                pixel.foreground_color = color;
                 }
             }
         }
