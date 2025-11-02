@@ -1,4 +1,3 @@
-#pragma once
 #include <vector>
 #include "Dibujo.hpp"
 #include <ftxui/screen/screen.hpp>
